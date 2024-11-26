@@ -10,43 +10,152 @@
 
 <body>
     <div class="container">
+        <!-- Sidebar -->
         <div class="dashboard">
             <div class="head">
                 <img src="./images/dashboard.svg" alt="logo">
                 <h1>Dashboard</h1>
             </div>
             <div class="menu">
-                <img src="./images/home.svg" alt="">
-                <h3>Home</h3>
-
-                <img src="./images/profile.svg" alt="">
-                <h3>Profile</h3>
-
-                <img src="./images/message.svg" alt="">
-                <h3>Messages</h3>
-
-                <img src="./images/history.svg" alt="">
-                <h3>History</h3>
-
-                <img src="./images/tasks.svg" alt="">
-                <h3>Tasks</h3>
-
-                <img src="./images/community.svg" alt="">
-                <h3>Communities</h3>
-
+                <div class="menuitem">
+                    <img src="./images/home.svg" alt="">
+                    <h3>Home</h3>
+                </div>
+                <div class="menuitem">
+                    <img src="./images/profile.svg" alt="">
+                    <h3>Profile</h3>
+                </div>
+                <div class="menuitem">
+                    <img src="./images/message.svg" alt="">
+                    <h3>Messages</h3>
+                </div>
+                <div class="menuitem">
+                    <img src="./images/history.svg" alt="">
+                    <h3>History</h3>
+                </div>
+                <div class="menuitem">
+                    <img src="./images/tasks.svg" alt="">
+                    <h3>Tasks</h3>
+                </div>
+                <div class="menuitem">
+                    <img src="./images/community.svg" alt="">
+                    <h3>Communities</h3>
+                </div>
                 <div class="menu-down">
-                    <img src="./images/settings.svg" alt="">
-                    <h3>settings</h3>
-
-                    <img src="./images/support.svg" alt="">
-                    <h3>Support</h3>
-
-                    <img src="./images/privacy.svg" alt="">
-                    <h3>Privacy</h3>
+                    <div class="menuitem">
+                        <img src="./images/settings.svg" alt="">
+                        <h3>Settings</h3>
+                    </div>
+                    <div class="menuitem">
+                        <img src="./images/support.svg" alt="">
+                        <h3>Support</h3>
+                    </div>
+                    <div class="menuitem">
+                        <img src="./images/privacy.svg" alt="">
+                        <h3>Privacy</h3>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="main"></div>
+
+        <!-- Main Content -->
+        <div class="main">
+            <!-- Header -->
+            <div class="main-head">
+                <div class="head-src">
+                    <img src="./images/magnify.svg" alt="">
+                    <div class="search"></div>
+                    <img src="./images/notification.svg" alt="" class="bell">
+                    <h4>Morgan Oakley</h4>
+                </div>
+                <div class="headdetail">
+                    <h2>Hi there, Morgan Oakley (@morgan)</h2>
+                    <div class="button">
+                        <button>New</button>
+                        <button>Upload</button>
+                        <button>Share</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects Section -->
+            <div class="projects">
+                <h2>Your Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Super Cool Project</h3>
+                        <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin...</p>
+                        <div class="card-actions">
+                            <img src="./images/star.svg" alt="Favorite">
+                            <img src="./images/eye.svg" alt="View">
+                            <img src="./images/link.svg" alt="Share">
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Less Cool Project</h3>
+                        <p>Nullam condimentum ipsum ut lectus vehicula consectetur...</p>
+                        <div class="card-actions">
+                            <img src="./images/star.svg" alt="Favorite">
+                            <img src="./images/eye.svg" alt="View">
+                            <img src="./images/link.svg" alt="Share">
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Impossible App</h3>
+                        <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu...</p>
+                        <div class="card-actions">
+                            <img src="./images/star.svg" alt="Favorite">
+                            <img src="./images/eye.svg" alt="View">
+                            <img src="./images/link.svg" alt="Share">
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Easy Peasy App</h3>
+                        <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim...</p>
+                        <div class="card-actions">
+                            <img src="./images/star.svg" alt="Favorite">
+                            <img src="./images/eye.svg" alt="View">
+                            <img src="./images/link.svg" alt="Share">
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Ad Blocker</h3>
+                        <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus...</p>
+                        <div class="card-actions">
+                            <img src="./images/star.svg" alt="Favorite">
+                            <img src="./images/eye.svg" alt="View">
+                            <img src="./images/link.svg" alt="Share">
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Money Maker</h3>
+                        <p>Praesent convallis, libero quis congue elementum...</p>
+                        <div class="card-actions">
+                            <img src="./images/star.svg" alt="Favorite">
+                            <img src="./images/eye.svg" alt="View">
+                            <img src="./images/link.svg" alt="Share">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Sidebar -->
+            <div class="sidebar">
+                <div class="announcements">
+                    <h3>Announcements</h3>
+                    <p>Site Maintenance: Vestibulum condimentum tellus lacus...</p>
+                    <p>Community Share Day: Nam vel lectus tincidunt, rutrum nulla...</p>
+                    <p>Updated Privacy Policy: Phasellus efficitur nisi...</p>
+                </div>
+                <div class="trending">
+                    <h3>Trending</h3>
+                    <p>@tegan: World Peace Builder</p>
+                    <p>@morgan: Super Cool Project</p>
+                    <p>@kendall: Life Changing App</p>
+                    <p>@alex: No Traffic Maker</p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
